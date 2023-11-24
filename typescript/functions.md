@@ -157,7 +157,7 @@ And this will work for both of the intended use cases above.
 In TypeScript, we can specify a function that can be called in different ways by writing overload signatures.
 To do this, write some number of function signatures (usually two or more), followed by the body of the function:
 
-```
+```typescript
 function makeDate(timestamp: number): Date;
 function makeDate(m: number, d: number, y: number): Date;
 function makeDate(mOrTimestamp: number, d?: number, y?: number): Date {
